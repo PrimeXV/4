@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: lightcoral;
+  font-family: cursive;
+}
+
+.container {
+  background-color: lightpink;
+  width: 400px;
+  padding: 20px;
+  border: 4px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(225, 25, 225, 0.3);
+  margin: 0 20px;
+}
+h1 {
+  font-size: 22px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px 0 80px 0;
+  color: black;
+}
+
+textarea::placeholder {
+  padding-left: 10px;
+  font-family: cursive;
+}
+
+.apart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inline-paragraph {
+  font-family: cursive;
+  color: grey
+}
+
+.red {
+   color: orangered;
+}
+
+.blue {
+  color: slateblue;
+}
+
